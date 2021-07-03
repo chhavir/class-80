@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C80</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 40px; margin-bottom: 35px; ">
+List of Guests </h3>
+
+<div id="rows">
+<span>1</span>
+<input type="text" placeholder="Guest" id="Guest1">
+<br>
+<br>
+<span>2</span>
+<input type="text" placeholder="Guest" id="Guest2">
+<br>
+<br>
+<span>3</span>
+<input type="text" placeholder="Guest" id="Guest3">
+<br>
+<br>
+
+<span>4</span>
+<input type="text" placeholder="Guest" id="Guest4">
+<br>
+<br>
+</div>
+
+<button onclick="submit()" id="subb">
+	Submit
+</button>
+<br>
+<br>
+
+<div id="guest_display">
+	</div>
+<br>
+<br>
+
+<button onclick="sort()" id="sobb">
+	Sort
+</button>
+<br>
+<br>
+<br>
+<br>
+<div>
+	<input type="text" id="search_value">
+<button onclick="searching()" id="search">
+	Search
+</button>
+</div>
+<h1>Search result : <span id="result"></span></h1>
+
+</script>
+</center>
+</body>
+</html>
